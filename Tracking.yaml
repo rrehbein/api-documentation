@@ -572,7 +572,8 @@ components:
       properties:
         code:
           type: string
-          description: The current status code.
+          description: The current status code see API Codes for possible
+            values.
           example: SR
         description:
           type: string
@@ -588,8 +589,7 @@ components:
           example: Delivered
         statusCode:
           type: string
-          description: The activity package detail status code see API Codes for possible
-            values.
+          description: The activity package detail status code.
           example: '003'
         type:
           type: string
